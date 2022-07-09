@@ -9,7 +9,7 @@ import javax.persistence.PersistenceContext;
 public class MemberRepository {
 
     @PersistenceContext // entity manager
-    private EntityManager em;
+    EntityManager em;
 
     // command + shift + T 로 Test 파일 생
 
